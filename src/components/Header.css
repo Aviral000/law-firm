@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+.container {
+  display: flex;
+  gap: 18vw;
+  padding: 1rem;
+  align-items: center; /* Added to center items vertically */
+}
+
+.nav1 {
+  color: white;
+}
+
+.nav1 .n1 {
+  display: flex;
+  flex-shrink: 1;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 .n1 .name {
+  width: auto;
+  height: 50%;
+  object-fit: cover;
+}
+
+.nav2 {
+  display: flex;
+  gap: 1.5rem;
+  color: white;
+  flex-shrink: 1;
+}
+
+.nav2 button {
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  border: 0px;
+  font-family: "Sedan SC", serif;
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap;
+  transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  padding: 0.5rem 1rem;
+}
+
+.nav2 button:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  background-color: #221f1f;
+}
+
+.nav3 button {
+  background-color: black;
+  color: white;
+  border: 0px;
+  font-size: 1.2rem;
+  font-family: "Sedan SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  white-space: nowrap;
+  display: flex;
+  flex-shrink: 1;
+  transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  padding: 0.5rem 1rem;
+}
+
+.nav3 button:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  background-color: #221f1f;
+}
+
+@media (max-width: 1020px) and (min-width: 620px) {
+  .container {
+    gap: 5vw;
+  }
+
+  .nav1 .n1 .name {
+    width: auto;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .nav2 {
+    gap: 1rem;
+  }
+
+  .nav2 button {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .nav3 button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav1 .n1 {
+    justify-content: center;
+  }
+
+  .nav1 .n1 .name {
+    width: auto;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .nav2 {
+    justify-content: center;
+    gap: .5rem;
+  }
+
+  .nav3 {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
