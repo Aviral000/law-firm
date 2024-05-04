@@ -47,7 +47,7 @@
 
 .nav2 button:hover {
   cursor: pointer;
-  transform: scale(1.4);
+  transform: scale(1.2);
   background-color: #221f1f;
 }
 
@@ -64,15 +64,16 @@
   flex-shrink: 1;
   transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   padding: 0.5rem 1rem;
+  border: 2px solid white;
 }
 
 .nav3 button:hover {
   cursor: pointer;
-  transform: scale(1.4);
+  transform: scale(1.2);
   background-color: #221f1f;
 }
 
-@media (max-width: 1020px) and (min-width: 620px) {
+@media (max-width: 1020px) and (min-width: 650px) {
   .container {
     gap: 5vw;
   }
@@ -98,7 +99,7 @@
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 650px) {
   .container {
     flex-direction: column;
     gap: 1rem;

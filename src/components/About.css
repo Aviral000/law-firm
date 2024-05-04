@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+.inner-container2 {
+    margin-top: 5rem;
+    background-color: rgb(30, 30, 30);
+}
+
+.starter {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.starter .about-heading {
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.starter .vertical-line {
+    width: 2px;
+    height: 10vh;
+    color: white;
+    background-color: white;
+}
+
+.starter .sub-heading .h1 {
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
