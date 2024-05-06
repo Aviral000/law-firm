@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+.feedback-container {
+    margin-top: 10rem;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper .heading {
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.upper .buttons {
+    display: flex;
+}
+
+.upper .buttons .button1 {
+    background-color: white;
+    border: 0;
+    color: black;
+    padding: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: .5rem;
+  }
+
+  .upper .buttons .button2 {
+    background-color: yellowgreen;
+    border: 0;
+    color: black;
+    padding: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: .5rem;
+  }
+  
+  .upper .buttons button .MuiSvgIcon-root {
+    font-size: 2rem;
+  }
+
+  .upper .buttons .button1:hover {
+    cursor: pointer;
+    background-color: rgb(186, 186, 186);
+  }
+
+  .upper .buttons .button2:hover {
+    cursor: pointer;
+    background-color: rgb(123, 172, 27);
+  }
+
+  
