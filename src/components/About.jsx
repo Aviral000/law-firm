@@ -2,6 +2,12 @@ import React from 'react'
 import "./About.css"
 import gift from "./assests/Union.png";
 import iconback from "./assests/Ellipse 9.png"
+import businesslaw from "./assests/Rectangle 3652.png"
+import partnershiplaw from "./assests/Rectangle 3651.png"
+import realestatelaw from "./assests/Rectangle 3653.png"
+import business from "./assests/Rectangle 3654.png"
+import elderabuse from "./assests/Rectangle 3655.png"
+import landlorddisputes from "./assests/Rectangle 3656.png"
 
 export default function About() {
   return (
@@ -23,9 +29,9 @@ export default function About() {
         <div className='box-group'>
           <div className='box'>
             <div className='icon'>
-              <img src={iconback} alt="" className='img1' />
+              <img src={iconback} alt="background" className='img1' />
               <div className='gift-icon'>
-                <img src={gift} alt="" className='img2' />
+                <img src={gift} alt="icon" className='img2' />
               </div>
             </div>
             <div className='sub-heading'>98% Success Rate</div>
@@ -39,9 +45,9 @@ export default function About() {
           </div>
           <div className='box'>
             <div className='icon'>
-              <img src={iconback} alt="" className='img1' />
+              <img src={iconback} alt="background" className='img1' />
               <div className='gift-icon'>
-                <img src={gift} alt="" className='img2' />
+                <img src={gift} alt="icon" className='img2' />
               </div>
             </div>
             <div className='sub-heading'>100% Success Rate</div>
@@ -56,9 +62,9 @@ export default function About() {
           </div>
           <div className='box'>
             <div className='icon'>
-              <img src={iconback} alt="" className='img1' />
+              <img src={iconback} alt="background" className='img1' />
               <div className='gift-icon'>
-                <img src={gift} alt="" className='img2' />
+                <img src={gift} alt="icon" className='img2' />
               </div>
             </div>
             <div className='sub-heading'>100% Success Rate</div>
@@ -74,7 +80,63 @@ export default function About() {
         </div>
       </div>
       <div className='lower'>
-
+        <div className='heading'>Area of Practices</div>
+        <div className='card'>
+          <div className='grid1'>
+            <div className='img1'>
+              <img src={businesslaw} alt="businesslaw" />
+              <div className='tag-position'>
+                <div className='tag1'>
+                  Business Law
+                </div>
+              </div>
+            </div>
+            <div className='img2'>
+              <img src={partnershiplaw} alt="partnershiplaw" />
+              <div className='tag-position'>
+                <div className='tag2'>
+                  Partnership Law
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='grid2'>
+            <div className='img2'>
+              <img src={realestatelaw} alt="realestatelaw" />
+              <div className='tag-position'>
+                <div className='tag2'>
+                  Real Estate Law
+                </div>
+              </div>
+            </div>
+            <div className='img1'>
+              <img src={business} alt="businesslaw" />
+              <div className='tag-position'>
+                <div className='tag1'>
+                  Money Forgery Law
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='grid3'>
+            <div className='img1'>
+              <img src={landlorddisputes} alt="realestatelaw" />
+              <div className='tag-position'>
+                <div className='tag1'>
+                  LandLord Disputes
+                </div>
+              </div>
+            </div>
+            <div className='img2'>
+              <img src={elderabuse} alt="businesslaw" />
+              <div className='tag-position'>
+                <div className='tag2'>
+                  Elder Abuse
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

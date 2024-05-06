@@ -140,3 +140,139 @@
     }
 }
 
+.lower {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.lower .heading {
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.lower .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.lower .card {
+    .grid1 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 50vw 25vw;
+        gap: 3rem;
+        height: 22vw;
+    }
+    .grid1 .img1 img{
+        width: 50vw;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 1rem;
+        transition: transform 1 ease;
+    }
+    .grid1 .img1 img:hover {
+        transform: scale(1.050);
+        cursor: pointer;
+    }
+    .grid1 .img2 img{
+        width: 25vw;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 1rem;
+        transition: transform 1 ease;
+    }
+    .grid1 .img2 img:hover {
+        transform: scale(1.050);
+        cursor: pointer;
+    }
+    .tag-position {
+        position: relative;
+    }
+    .tag1 {
+        position: absolute;
+        top: -5rem;
+        left: 19vw;
+        color: white;
+        font-family: "Reddit Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+    }
+    .tag2 {
+        position: absolute;
+        top: -5rem;
+        left: 5vw;
+        color: white;
+        font-family: "Reddit Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+    }
+    .grid2 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 25vw 50vw;
+        gap: 3rem;
+        height: 22vw;
+    }
+    .grid2 .img1 img{
+        width: 50vw;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 1rem;
+        transition: transform 1 ease;
+    }
+    .grid2 .img1 img:hover {
+        transform: scale(1.050);
+        cursor: pointer;
+    }
+    .grid2 .img2 img{
+        width: 25vw;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 1rem;
+        transition: transform 1 ease;
+    }
+    .grid2 .img2 img:hover {
+        transform: scale(1.050);
+        cursor: pointer;
+    }
+    .grid3 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 50vw 25vw;
+        gap: 3rem;
+        height: 22vw;
+    }
+    .grid3 .img1 img{
+        width: 50vw;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 1rem;
+        transition: transform 1 ease;
+    }
+    .grid3 .img1 img:hover {
+        transform: scale(1.050);
+        cursor: pointer;
+    }
+    .grid3 .img2 img{
+        width: 25vw;
+        height: 80%;
+        object-fit: cover;
+        border-radius: 1rem;
+        transition: transform 1 ease;
+    }
+    .grid3 .img2 img:hover {
+        transform: scale(1.050);
+        cursor: pointer;
+    }
+}
