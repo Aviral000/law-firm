@@ -3,6 +3,15 @@ import "./Feedback.css";
 import WestIcon from '@mui/icons-material/West';
 import EastIcon from '@mui/icons-material/East';
 
+const ourTeam = () => {
+  return (
+    <div>
+      <div></div>
+      <div></div>
+    </div>
+  )
+}
+
 export default function Feedback() {
 const [feedpage, setFeedpage] = useState(0);
 const [feedCard, setFeedCard] = useState(4);

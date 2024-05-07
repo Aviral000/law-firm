@@ -78,7 +78,7 @@
   }
 
   .lower .box .card {
-    width: auto;
+    width: 15vw;
     height: auto;
     display: flex;
     flex-direction: column;
