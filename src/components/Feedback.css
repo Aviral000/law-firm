@@ -68,4 +68,60 @@
     background-color: rgb(123, 172, 27);
   }
 
-  
+  .lower {
+    margin-top: 5rem;
+  }
+
+  .lower .box {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .lower .box .card {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  .lower .box .card:hover {
+    background-color: rgb(77, 77, 77);
+  }
+
+  .lower .box .card {
+    .img-card img {
+      width: 5rem;
+      height: 5rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .feeder-name {
+      color: white;
+      font-family: "Reddit Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+    .occupation {
+      color: white;
+      font-family: "Reddit Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    .message {
+      color: white;
+      font-family: "Reddit Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+      font-size: .8rem;
+      margin-top: 1rem;
+    }
+  }
