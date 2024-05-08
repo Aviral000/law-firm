@@ -125,3 +125,178 @@
       margin-top: 1rem;
     }
   }
+
+  .team-card {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-card .heading {
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.5rem;
+  }
+
+  .team-card .attorney-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .team-card .attorney-card {
+    .cards {
+      width: 20vw;
+      height: auto;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .cards:hover {
+      background-color: rgb(223, 227, 99);
+      cursor: pointer;
+      .inner-card .att-desc .att-name {
+        color: black;
+      }
+      .inner-card .att-desc .att-cases {
+        color: black;
+      }
+    }
+    .cards .inner-card {
+      display: flex;
+    }
+    .cards .inner-card .img-card img {
+      width: 5rem;
+      height: 5rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .cards .inner-card .att-desc .att-name {
+      color: white;
+      font-family: "Reddit Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 1.5rem;
+      padding-left: 2rem;
+    }
+
+    .cards .inner-card .att-desc .att-cases {
+      color: white;
+      font-family: "Reddit Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+      font-size: .8rem;
+      padding-left: 2rem;
+      padding-top: .7rem;
+    }
+  }
+
+  .FAQ {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+  }
+
+  .FAQ .heading {
+    color: white;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.5rem;
+    padding-left: 3.5rem;
+    letter-spacing: 5px;
+  }
+
+  .FAQ .box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .FAQ .box .para {
+    width: 30vw;
+    color: rgb(255, 255, 255, .5);
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+  }
+
+  .accordian {
+    width: 35vw;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .accordian .accordian-item {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    .accordian-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 15px;
+      padding-top: 2rem;
+
+      button {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        border: 0;
+      }
+
+      .heading-1 {
+        color: rgb(255, 255, 255);
+        font-family: "Reddit Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.3rem;
+      }
+      .icon {
+        color: white;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+      }
+    }
+
+    .accordian-content {
+      padding: 15px;
+      max-height: 0rem;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+
+      .para {
+        color: rgb(255, 255, 255, .5);
+        font-family: "Reddit Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: .8rem;
+      }
+    }
+  }
+
+  .accordian .accordion-item.active .accordion-content {
+    max-height: 500px;
+  }
+  
+  .accordian .accordion-item.active .accordion-icon {
+    transform: rotate(180deg);
+  }
