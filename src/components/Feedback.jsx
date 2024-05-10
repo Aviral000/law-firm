@@ -190,8 +190,13 @@ const FAQ = () => {
 
 const Subscription = () => {
   return (
-    <div>
-      
+    <div className='subs-container'>
+      <div className='heading'>Subscribe Our Newsletter</div>
+      <div className='collection'>
+        <input type="text" placeholder='Name' />
+        <input type="text" placeholder='Enter your Email' />
+        <button>Send</button>
+      </div>
     </div>
   )
 }

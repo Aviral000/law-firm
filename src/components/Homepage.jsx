@@ -3,6 +3,7 @@ import Header from './Header'
 import Attorney from './Attorney'
 import About from './About'
 import Feedback from './Feedback'
+import Footer from './Footer'
 
 export default function Homepage() {
   return (
@@ -11,6 +12,7 @@ export default function Homepage() {
       <Attorney />
       <About />
       <Feedback />
+      <Footer />
     </div>
   )
 }

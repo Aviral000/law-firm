@@ -2,6 +2,7 @@ import React from 'react'
 import "./Attorney.css"
 import attorney from "./assests/Group 10591.png"
 import { FaEnvelope } from 'react-icons/fa';
+import Header from './Header';
 
 export default function Attorney() {
   return (

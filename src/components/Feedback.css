@@ -304,3 +304,57 @@
     color: rgb(255, 255, 255, .5);
     transition: color 0.5s ease 0s;
   }
+
+  .subs-container {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(31, 31, 31, 0.5);
+  }
+
+  .subs-container .heading {
+    color: rgb(255, 255, 255);
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .subs-container .collection {
+    display: flex;
+    gap: 5px;
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+
+    input {
+      padding-left: 1rem;
+      width: 20vw;
+      height: 2.5rem;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 4rem;
+      height: 2.5rem;
+      background-color: rgb(151, 151, 54);
+      color: black;
+      font-family: "Reddit Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: rgb(100, 116, 68);
+    }
+  }

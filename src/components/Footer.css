@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+.footer {
+    margin-top: 10rem;
+
+    .horizontal-line {
+        width: 97vw;
+        height: 1px;
+        background-color: white;
+    }
+
+    .top {
+        display: flex;
+        padding-left: 10rem;
+        padding-top: 3rem;
+
+        .img-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .options {
+            padding-left: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: "Reddit Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1.2rem;
+            gap: 4rem;
+        }
+
+        .links {
+            padding-left: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            img {
+                width: 2rem;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .bottom {
+        padding-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: "Reddit Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: .7rem;
+        gap: 3rem;
+        transition: transform 1s ease 0s;
+
+        a:hover {
+            transform: scale(1.2);
+        }
+        a:visited {
+            color: white;
+        }
+        .policy:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        .terms:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+}
