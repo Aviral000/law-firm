@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Aviral000/law-firm/static/css/main.92242611.css",
-    "main.js": "/Aviral000/law-firm/static/js/main.b9bf139b.js",
-    "static/media/Rectangle 3652.png": "/Aviral000/law-firm/static/media/Rectangle 3652.b37f06cae4e452d9b0b8.png",
-    "static/media/Rectangle 3654.png": "/Aviral000/law-firm/static/media/Rectangle 3654.6fd912cdfb2cfb3bf489.png",
-    "static/media/Rectangle 3656.png": "/Aviral000/law-firm/static/media/Rectangle 3656.5095347bdf0a27aae590.png",
-    "static/media/Group 10591.png": "/Aviral000/law-firm/static/media/Group 10591.e92f3d1a78a98a5f321c.png",
-    "static/media/Rectangle 3653.png": "/Aviral000/law-firm/static/media/Rectangle 3653.7898f61231cb87592e73.png",
-    "static/media/Rectangle 3655.png": "/Aviral000/law-firm/static/media/Rectangle 3655.782c9a08e2791eb49979.png",
-    "static/media/Rectangle 3651.png": "/Aviral000/law-firm/static/media/Rectangle 3651.a29d692075a2a7f05877.png",
-    "index.html": "/Aviral000/law-firm/index.html",
-    "main.92242611.css.map": "/Aviral000/law-firm/static/css/main.92242611.css.map",
-    "main.b9bf139b.js.map": "/Aviral000/law-firm/static/js/main.b9bf139b.js.map"
+    "main.css": "/Aviral000/attorneys-hub.git/static/css/main.92242611.css",
+    "main.js": "/Aviral000/attorneys-hub.git/static/js/main.e2b6c2c0.js",
+    "static/media/Rectangle 3652.png": "/Aviral000/attorneys-hub.git/static/media/Rectangle 3652.b37f06cae4e452d9b0b8.png",
+    "static/media/Rectangle 3654.png": "/Aviral000/attorneys-hub.git/static/media/Rectangle 3654.6fd912cdfb2cfb3bf489.png",
+    "static/media/Rectangle 3656.png": "/Aviral000/attorneys-hub.git/static/media/Rectangle 3656.5095347bdf0a27aae590.png",
+    "static/media/Group 10591.png": "/Aviral000/attorneys-hub.git/static/media/Group 10591.e92f3d1a78a98a5f321c.png",
+    "static/media/Rectangle 3653.png": "/Aviral000/attorneys-hub.git/static/media/Rectangle 3653.7898f61231cb87592e73.png",
+    "static/media/Rectangle 3655.png": "/Aviral000/attorneys-hub.git/static/media/Rectangle 3655.782c9a08e2791eb49979.png",
+    "static/media/Rectangle 3651.png": "/Aviral000/attorneys-hub.git/static/media/Rectangle 3651.a29d692075a2a7f05877.png",
+    "index.html": "/Aviral000/attorneys-hub.git/index.html",
+    "main.92242611.css.map": "/Aviral000/attorneys-hub.git/static/css/main.92242611.css.map",
+    "main.e2b6c2c0.js.map": "/Aviral000/attorneys-hub.git/static/js/main.e2b6c2c0.js.map"
   },
   "entrypoints": [
     "static/css/main.92242611.css",
-    "static/js/main.b9bf139b.js"
+    "static/js/main.e2b6c2c0.js"
   ]
 }
