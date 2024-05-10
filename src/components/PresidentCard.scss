@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+$primary-font: 'Reddit Sans', sans-serif;
+$secondary-font: 'Briem Hand', cursive;
+$white: #fff;
+$off-white: rgba(255, 255, 255, 0.5);
+$light-gray: rgba(255, 255, 255, 0.8);
+$black: #000;
+$animation-duration: 3s;
+$animation-delay: 1s;
+
+.attorney-container {
+  margin: 5rem 10rem;
+}
+
+.president {
+  display: flex;
+  overflow: hidden;
+
+  .card {
+    .info {
+      .name,
+      .designation,
+      .ranking {
+        position: relative;
+        left: -50rem;
+        color: $white;
+        font-family: $secondary-font;
+        font-optical-sizing: auto;
+        font-style: normal;
+        animation-duration: $animation-duration;
+        animation-timing-function: forwards;
+        animation-fill-mode: both;
+      }
+
+      .name {
+        font-weight: 500;
+        font-size: 5rem;
+        animation-name: slide-left;
+      }
+
+      .designation {
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+        animation-name: slide-left;
+        animation-delay: $animation-delay;
+      }
+
+      .ranking {
+        font-weight: 300;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        animation-name: slide-left;
+        animation-delay: $animation-delay;
+      }
+    }
+
+    .quotes {
+      color: $black;
+      font-family: $primary-font;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2rem;
+      padding-top: 2rem;
+      animation: color-change $animation-duration forwards $animation-delay + 3s;
+    }
+  }
+
+  .img {
+    padding-left: 5rem;
+
+    img {
+      position: relative;
+      left: 20rem;
+      animation: slide-right $animation-duration ease forwards;
+    }
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    left: -50rem;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: $black;
+  }
+  100% {
+    color: $light-gray;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    left: 20rem;
+  }
+  100% {
+    left: 5rem;
+  }
+}

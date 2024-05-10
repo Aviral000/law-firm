@@ -2,6 +2,7 @@ import React from 'react';
 import "./Header.css";
 import igstudio from "./assests/Igstudio.png"
 import vector from "./assests/Vector.png"
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -14,10 +15,10 @@ export default function Header() {
             </div>
         </div>
         <div className='nav2'>
-            <button>Home</button>
-            <button>Attorneys</button>
-            <button>Practice Areas</button>
-            <button>About Us</button>
+            <button><Link to="/" style={{ color: "white" }}>Home</Link></button>
+            <button><Link to="/attorney" style={{ color: "white" }}>Attorneys</Link></button>
+            <button><Link to="/attorney" style={{ color: "white" }}>Practice Areas</Link></button>
+            <button><Link to="/attorney" style={{ color: "white" }}>About Us</Link></button>
         </div>
         <div className='nav3'><button>Contact Now</button></div>
       </nav>
