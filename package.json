@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "website to hire attorneys",
   "main": "src/index.jsx",
+  "homepage": "https://github.com/Aviral000/law-firm",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "low",
@@ -37,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
